@@ -15,12 +15,12 @@ typedef struct agenda_t {
 } Agenda;
 
 Agenda criar_agenda(int tamanho);
-void adicionar_contato(Agenda agenda, Contato contato);
-void remover_contato(Agenda agenda, Contato contato);
-void bloquear_contato(Agenda agenda, Contato contato);
-void editar_contato(Agenda agenda, Contato contato);
-void listar_contato(Agenda agenda);
-void desbloquear_contato(Agenda agenda, Contato contato);
-void compartilhar_contato(Agenda agenda, Contato contato);
+void adicionar_contato(Agenda *agenda, Contato contato);
+void remover_contato(Agenda *agenda, Contato contato);
+void bloquear_contato(Agenda *agenda, Contato contato);
+void editar_contato(Agenda *agenda, Contato contato);
+void listar_contato(Agenda *agenda);
+void desbloquear_contato(Agenda *agenda, Contato contato);
+void compartilhar_contato(Agenda *agenda, Contato contato);
 
 #endif
