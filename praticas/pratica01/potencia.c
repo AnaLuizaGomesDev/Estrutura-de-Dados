@@ -11,6 +11,6 @@ void calcular_potencia(int base, int expoente) {
 }
 
 int main (){
-    calcular_potencia(2, 10);
+    calcular_potencia(2, 5);
     return 0;
 }
